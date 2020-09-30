@@ -13,11 +13,12 @@ class App
 get '/name' do
   "My name is Jason"
 end
-class App
+end
+
 get '/hometown' do
   "My hometown is Chatom"
 end
-class App
+
 get '/favorite-song' do
   "My favorite song is the hokey pokey"
 end
