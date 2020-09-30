@@ -3,6 +3,13 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 end
 
+# in app.rb
+class App
+  get '/' do
+    "Hello World"
+  end
+end
+
 
 get '/name' do
   "My name is Jason"
