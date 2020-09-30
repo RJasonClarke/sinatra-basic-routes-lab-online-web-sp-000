@@ -3,7 +3,6 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 end
 
-# in app.rb
 class App
   get '/' do
     "Hello World"
