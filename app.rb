@@ -6,5 +6,4 @@ end
 
 get '/name' do
   "My name is Robert"
-
 end
