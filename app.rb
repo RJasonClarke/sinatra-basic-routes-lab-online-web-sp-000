@@ -5,7 +5,7 @@ end
 
 
 get '/name' do
-  "My name is Robert"
+  "My name is "
 end
 
 get '/hometown' do
