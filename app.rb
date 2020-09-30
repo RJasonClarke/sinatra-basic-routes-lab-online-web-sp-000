@@ -4,6 +4,7 @@ class App < Sinatra::Base
 end
 
 
-get '/' do
-  "Hello, World!"
+get '/name' do
+  "My name is Robert"
+
 end
